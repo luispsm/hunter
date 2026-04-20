@@ -665,3 +665,5 @@ if(ANDROID)
     # TODO: Add more versions
   endif()
 endif()
+
+hunter_default_version(Print VERSION 0.0.1)
