@@ -117,6 +117,7 @@ hunter_default_version(PROJ4 VERSION 5.0.0)
 hunter_default_version(PhysUnits VERSION 1.1.0-p0)
 hunter_default_version(PocoCpp VERSION 1.10.1-p0)
 hunter_default_version(PostgreSQL VERSION 10.0.0)
+hunter_default_version(Print VERSION 0.0.1)
 hunter_default_version(Protobuf VERSION 3.19.4-p0)
 
 string(COMPARE EQUAL "${CMAKE_SYSTEM_NAME}" "Linux" _is_linux)
@@ -665,5 +666,3 @@ if(ANDROID)
     # TODO: Add more versions
   endif()
 endif()
-
-hunter_default_version(Print VERSION 0.0.1)

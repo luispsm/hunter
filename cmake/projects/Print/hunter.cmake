@@ -8,7 +8,7 @@ hunter_add_version(
     PACKAGE_NAME
     Print
     VERSION
-    "v0.0.1"
+    "0.0.1"
     URL
     "https://github.com/luispsm/hunter_test-dep/archive/refs/tags/v0.0.1.tar.gz"
     SHA1
